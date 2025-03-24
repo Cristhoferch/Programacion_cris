@@ -11,7 +11,7 @@ def main():
     monto_compra = float(input("Ingresa el monto total de la compra: $"))
 
     # Solicitar al usuario el porcentaje de descuento (opcional, con valor predeterminado de 10%)
-    descuento_opcional = input("Ingresa el porcentaje de descuento : ")
+    descuento_opcional = input("Ingresa el porcentaje de descuento: ")
 
     # Si el usuario no ingresa un valor, se usa el valor predeterminado de 10%
     if descuento_opcional == "":
